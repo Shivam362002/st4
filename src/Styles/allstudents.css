@@ -1,0 +1,5 @@
+.data:hover {
+  background-image: var(--gradient);
+  border: 2px dashed white;
+  opacity: 1;
+}

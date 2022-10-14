@@ -1,0 +1,101 @@
+main.content {
+  color: black;
+  margin-left: 200px;
+  width: inherit;
+  padding: 0 0px;
+}
+h1 {
+  padding: 15px 15px;
+  background: #981616;
+  margin: 0;
+  color: white;
+}
+.home-content {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-items: center;
+  padding: 15px 25px;
+  overflow: hidden;
+  color: var(--main-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 0px 100px;
+  height: 100vh;
+}
+
+div .home-image img {
+  width: 30rem;
+  padding: 50px;
+  left: 0%;
+  right: 50rem;
+  height: 30rem;
+  border-radius: 76% 24% 70% 30% / 30% 66% 34% 70%;
+  object-fit: cover;
+  filter: drop-shadow(10px 10px 5px var(--main-color));
+}
+
+/* .dash {
+  justify-content: space-evenly;
+  padding: 25px;
+}
+.card {
+  border-left: 8px solid #fa9038;
+  margin-bottom: 0;
+} */
+.container {
+  padding-top: 35px;
+}
+.order-card {
+  color: #fff;
+}
+
+div .button1 {
+  border-radius: 0px 100px;
+  /* padding: 10px; */
+  margin: 10px;
+  background-color: #c40101;
+}
+
+
+.bg-c-blue {
+  background: linear-gradient(45deg, #cb471b,#1f0101, #510a02);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg,  #cb471b,#1f0101, #510a02);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg,  #cb471b,#1f0101, #510a02);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg,  #cb471b,#1f0101, #510a02);
+}
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 25px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}

@@ -1,0 +1,30 @@
+div .subject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.form-container {
+  background-color: #dce8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 65%;
+  height: 100%;
+  padding: 35px 25px;
+  border-left: 15px dashed var(--main-color);
+  background: linear-gradient(rgba(241, 38, 12, 0.756));
+}
+@media (max-width: 900px) {
+  .form-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    width: 100%;
+  }
+}
